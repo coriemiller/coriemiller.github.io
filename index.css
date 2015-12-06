@@ -1,0 +1,13 @@
+a { 
+	font-size: 60px;
+    text-transform: uppercase;
+	color: white;
+    font-weight: normal;
+	font-family: Georgia;
+	letter-spacing: 3px;
+  text-decoration: none
+}
+
+a:hover {
+  color: yellow
+}
