@@ -5,7 +5,8 @@
  *
  * Jacked from http://www.joeyyang.com/ 
  *
- */
+ #1C768B
+  */
 
 .image {
   position: relative;
@@ -33,7 +34,8 @@ body {
 }
 
 div .main-text, .sub-text {
-  background-color: rgba(0, 125, 75, .7);
+  background-color:  #1C768B;
+  /*background-color: rgba(0, 125, 75, .7);*/
   padding: 16px;
   margin-right: 16px;
 }
