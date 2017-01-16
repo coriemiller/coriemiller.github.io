@@ -40,8 +40,8 @@ hr {
 	width: 300px;
 	height: 300px;
 	padding: 10px 5px;
-	display: inline-block;
-	clear: left;
+/*	display: inline-block;
+*/	clear: left;
 	vertical-align: top;
 	position: relative;
 	overflow: hidden; 
