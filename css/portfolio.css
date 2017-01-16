@@ -39,7 +39,7 @@ hr {
 .tile {
 /*	width: 800px;
 	height: 300px;*/
-	padding: 10px 5px;
+	padding: 20px 5px;
 /*	display: inline-block;
 */	clear: left;
 	vertical-align: top;
@@ -119,3 +119,4 @@ a {
 	display: table;
 /*	width: 93%;
 */}
+
