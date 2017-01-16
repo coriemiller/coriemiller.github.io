@@ -3,11 +3,13 @@ Inspired by Moran Nachum http://morannachum.github.io/, who was inspired by www.
 */
 
 body {
-	background: #FF9999;
+	/*green*/
+/*	background: #173500;
+*/	/*purple*/
+	background: rgba(63, 81, 181, 0.58);
 	color: #FFFFFF;
 	font-family: 'Bungee Shade', cursive;
-/*	font-family: 'Fjalla One', sans-serif;
-*/}
+}
 
 a:link {
 	color: #FFFFFF;
