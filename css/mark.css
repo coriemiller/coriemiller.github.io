@@ -1,0 +1,125 @@
+/*
+Lifted from Moran Nachum via www.markromanek.com
+*/
+
+body {
+	background: #FF9999;
+	color: #FFFFFF;
+	/* font-family: "Courier New", Courier, monospace; */
+	font-family: Helvetica, sans-serif;
+    padding: 20px;
+	line-height: 24pt;
+}
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #222222;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+a:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	margin-bottom: 20px;
+}
+
+#nav {
+	position: fixed;
+	top: 50px;
+	left: 50px;
+	width: 250px;
+	height: auto;
+}
+
+#content {
+	position: absolute;
+	top: 100px;
+	left: 250px;
+	width: 550px;
+	height: auto;
+	padding-top: none;
+	padding-left: none;
+	padding-right: none;
+	padding-bottom: none;
+	font-size: 24pt;
+	line-height: 26pt;
+}
+
+h1 {
+	font-size: 50pt;
+}
+
+p.field {
+	font-size: 13pt;
+	line-height: 13pt;
+}
+
+.navlink {
+	/* font-family: "Courier New", Courier, monospace; */
+	font-family: Helvetica, sans-serif;
+	color: #FFFFFF;
+	font-size: 32pt;
+	line-height: 34pt;
+}
+
+a.navlink:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.navlink:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a.navlink:hover {
+	color: #222222;
+	text-decoration: none;
+	background-color: #FFFFFF;
+}
+
+a.navlink:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.builtbyben {
+	color: #FFFFFF;
+	/* font-family: "Courier New", Courier, monospace; */
+	font-family: Helvetica, sans-serif;
+}
+
+a.builtbyben:link {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.builtbyben:visited {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+a.builtbyben:hover {
+	color: #222222;
+	text-decoration: underline;
+	background-color: #FFFFFF;
+}
+
+a.builtbyben:active {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
