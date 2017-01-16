@@ -1,9 +1,6 @@
 /*
- * STYLES UPON STYLES UPON STYLES IS WHAT I HAVE
- * YOU WANNA DISS CSS, BUT YOU STILL DON'T KNOW THE HALF
- * - Phife Dawg, if he were a software engineer
  *
- * Jacked from http://www.joeyyang.com/ 
+ * CSS from morannachum.com, who jacked it from http://www.joeyyang.com/ 
  *
  */
 
@@ -30,6 +27,9 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: 'Kreon', serif;
+
+
 }
 
 div .main-text, .sub-text {
@@ -47,13 +47,14 @@ div .main-text {
 
 .main-text .main-p {
   color: white;
-  font: 30px Helvetica, sans-serif;
+  font-size: 30px;
   margin-top: 8px;
  }
 
 h1 {
   color: white;
-  font: bold 64px Helvetica, sans-serif;
+  font-size: 64px;
+  font-weight: bold;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -67,13 +68,13 @@ div .sub-text {
 
 p {
   color: white;
-  font: 20px Helvetica, sans-serif;
+  font-size: 20px ;
   margin: 2px 0px;
   line-height: 140%;
 }
 
 p.sidenote {
-  font: 12px Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 a:link, a:visited, a:active {
@@ -98,7 +99,8 @@ span.mobile {
     position: relative;
   }
   .hero {
-    background: url('../images/yaffo small.jpg');
+    background: url('../images/world.jpg');
+    background-position: center center;
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
@@ -116,7 +118,7 @@ span.mobile {
   }
 
   .main-text .main-p {
-    font: 24px Helvetica, sans-serif;
+    font-size: 24px;
     margin-top: 8px;
   }
 
@@ -126,11 +128,12 @@ span.mobile {
   }
 
   h1 {
-    font: bold 48px Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
   }
 
   p {
-    font: 24px Helvetica, sans-serif;
+    font-size: 24px;
   }
 
   span.mobile {
@@ -146,7 +149,8 @@ span.mobile {
   }
 
   .hero {
-    background: url('../images/yaffo small.jpg');
+    background: url('../images/world.jpg');
+    background-position: center center;
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
@@ -176,11 +180,12 @@ span.mobile {
   }
 
   h1 {
-    font: bold 32px Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
   }
 
   p {
-    font: 16px Helvetica, sans-serif;
+    font-size: 16px;
   }
 
   span.mobile {
@@ -188,3 +193,5 @@ span.mobile {
   }
 
 }
+
+
