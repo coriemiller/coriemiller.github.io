@@ -58,40 +58,41 @@ li {
 	cursor: pointer;
 	background-color: transparent;
 	background-repeat: no-repeat;
-/*	background-image: url('../images/all.png');
-*/}
+	border: 1px solid;
 
-.raplaugh {
-	background-position: 0px 0px;
 }
 
-.raplaugh:hover {
-	background-position: -300px 0px;
+.richard {
+	background-image: url('../images/richard.png');
+	background-size: contain;
+
 }
 
-.blog {
-	background-position: 0px -300px;
-}
-
-.blog:hover {
-	background-position: -300px -300px;
-}
-
-.architecture {
-	background-position: 0px -600px;
-}
-
-.architecture:hover {
-	background-position: -300px -600px;
-}
-
-.trl {
-	background-image: url('../images/trl.gif');
+.richard:hover {
+	background-image: url('../images/richard.gif');
 	background-size: contain;
 }
 
+.hip {
+	background-image: url('../images/hip.png');
+	background-size: contain;
+
+}
+
+.hip:hover {
+	background-image: url('../images/hip.gif');
+	background-size: contain;
+}
+
+.trl {
+	background-image: url('../images/trl.png');
+	background-size: contain;
+
+}
+
 .trl:hover {
-	opacity: 30%;
+	background-image: url('../images/trl.gif');
+	background-size: contain;
 }
 
 
