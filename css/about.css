@@ -17,8 +17,10 @@
 .hero {
 /*  background:url('../images/world.jpg') no-repeat 0 0;
   background-size: cover;*/
-  background: rgba(204, 98, 239, 0.43);
-  min-width: 100%;
+  background:url('../images/field.jpg') no-repeat 0 0;
+  background-size: cover;
+/*  background: rgba(204, 98, 239, 0.43);
+*/  min-width: 100%;
   min-height: 100%;
   float: right;
   position: fixed;
@@ -102,10 +104,10 @@ span.mobile {
     position: relative;
   }
   .hero {
-/*    background: url('../images/world.jpg');
-    background-position: center center;*/
-    background: #bce49d;
-    min-width: 1440px;
+    background: url('../images/field.jpg');
+    background-position: center center;
+/*    background: #bce49d;
+*/    min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
     float: right;
@@ -153,10 +155,10 @@ span.mobile {
   }
 
   .hero {
-/*    background: url('../images/world.jpg');
-    background-position: center center;*/
-    background: #bce49d;
-    min-width: 1440px;
+    background: url('../images/field.jpg');
+    background-position: center center;
+/*    background: #bce49d;
+*/    min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
     float: right;
