@@ -13,9 +13,11 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+
 .hero {
-  background:url('../images/world.jpg') no-repeat 0 0;
-  background-size: cover;
+/*  background:url('../images/world.jpg') no-repeat 0 0;
+  background-size: cover;*/
+  background: rgba(234, 87, 87, 0.86);
   min-width: 100%;
   min-height: 100%;
   float: right;
@@ -62,7 +64,7 @@ h1 {
 
 div .sub-text {
   position: absolute;
-  top: 170px;
+  top: 200px;
   left: 0;
   margin-left: 32px;
 }
@@ -100,8 +102,9 @@ span.mobile {
     position: relative;
   }
   .hero {
-    background: url('../images/world.jpg');
-    background-position: center center;
+/*    background: url('../images/world.jpg');
+    background-position: center center;*/
+    background: #bce49d;
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
@@ -144,14 +147,15 @@ span.mobile {
 }
 
 
-@media only screen and (max-width: 472px) {
+@media only screen and (max-width: 535px) {
   .image {
     position: relative;
   }
 
   .hero {
-    background: url('../images/world.jpg');
-    background-position: center center;
+/*    background: url('../images/world.jpg');
+    background-position: center center;*/
+    background: #bce49d;
     min-width: 1440px;
     min-height: 100%;
     min-width: 100%;
@@ -165,7 +169,7 @@ span.mobile {
   }
 
   div .main-text {
-      top: 15px;
+      top: 35px;
       margin-left: 16px;
     }
 
@@ -175,7 +179,7 @@ span.mobile {
     }
 
   div .sub-text {
-    top: 267px;
+    top: 200px;
     padding: 9px;
     margin-left: 16px;
   }
