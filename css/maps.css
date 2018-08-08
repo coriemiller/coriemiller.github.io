@@ -5,8 +5,9 @@
 
 body{
 	background: #FFFFFF; 
-	padding-top: 1%;
+	padding-top: 0%;
 	text-align: center;
+	font-family: 'Bree Serif', serif !important;
 }
 
 hr { 
@@ -24,14 +25,14 @@ hr {
 }
 
 #header {	
-	line-height: 80px;
+	line-height: 20px;
 	font-family: Helvetica;
-    margin: 10px 0;
-    padding-bottom: 10px;
+  font-family: 'Bree Serif', serif;
+
 }
  
 #header h1 {
-    font-size: 100px;
+    font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 0px;
 }
@@ -60,40 +61,6 @@ li {
 	background-repeat: no-repeat;
 }
 
-.richard {
-/*	background-image: url('../images/richard.png');
-	background-size: contain;*/
-	border: 4px solid;
-}
-
-.richard:hover {
-	background-image: url('../images/richard.gif');
-	background-size: contain;
-}
-
-.hip {
-/*	background-image: url('../images/hip.png');
-	background-size: contain;*/
-	border: 4px solid;
-}
-
-.hip:hover {
-	background-image: url('../images/hip.gif');
-	background-size: contain;
-	border: 4px solid;
-}
-
-.trl {
-/*	background-image: url('../images/trl.png');
-	background-size: contain;*/
-	border: 4px solid;
-}
-
-.trl:hover {
-	background-image: url('../images/trl.gif');
-	background-size: contain;
-}
-
 
 footer, li p{
 	width: 100%;
@@ -101,18 +68,18 @@ footer, li p{
 	display: block;
 	text-transform: uppercase;
 	text-align: center;
-	font-family: Helvetica;
+	font-family: 'Bree Serif', serif !important;
 	font-weight: bold;
-	color: #000;
+	color: #000 !important;
 	margin-top:20px;
 }
 
 p {
-	font-size: 25px;
+	font-size: 20px;
 }
 
 a {
-	color: #494949;
+	color: #494949 !important;
 	text-decoration: none;
 }
 
@@ -160,10 +127,3 @@ li:hover p{
 }
 
 }
-
-
-
-
-
-
-
